@@ -6,9 +6,20 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+
+button {
+  border: none;
+  font-family: inherit;
+  background-color: none;
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
 }
 
 .container {
