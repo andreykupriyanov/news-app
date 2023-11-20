@@ -1,8 +1,8 @@
 import NewsItem from '../NewsItem/NewsItem';
 
-import styles from './styles.module.scss';
-
 import withSkeleton from '../../helpers/hocs/withSkeleton';
+
+import styles from './styles.module.scss';
 
 const NewsList = ({ news }) => {
   return (
